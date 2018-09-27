@@ -32,7 +32,7 @@ $('.shopping-list').on('click', '.shopping-item-toggle', function(){
 }
 
 function deleteItems(){
-$('shopping-list').on('click', '.shopping-item-delete',function(){
+$('.shopping-list').on('click', '.shopping-item-delete',function(){
     $(this).closest('li').remove();
   });
 }
